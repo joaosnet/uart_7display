@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\Debug\Primeira avaliacao.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Primeira avaliacao.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Primeira avaliacao.map</FILE>
+  <FILE>Primeira avaliacao.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <initDisplay><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>21</LINE></initDisplay>
+  <USART_RX><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>44</LINE></USART_RX>
+  <initUART><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>26</LINE></initUART>
+  <main><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>41</LINE></main>
+  <Get_N><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>48</LINE></Get_N>
+  <num0><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>102</LINE></num0>
+  <num1><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>107</LINE></num1>
+  <num2><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>112</LINE></num2>
+  <num3><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>117</LINE></num3>
+  <num4><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>122</LINE></num4>
+  <num5><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>127</LINE></num5>
+  <num6><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>132</LINE></num6>
+  <num7><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>137</LINE></num7>
+  <num8><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>142</LINE></num8>
+  <num9><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>147</LINE></num9>
+  <numA><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>152</LINE></numA>
+  <numB><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>157</LINE></numB>
+  <numC><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>162</LINE></numC>
+  <numD><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>167</LINE></numD>
+  <numE><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>172</LINE></numE>
+  <numF><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>177</LINE></numF>
+  <traco><FILE>C:\Users\Administrator\Documents\MICMIC\Primeira avaliacao\Primeira avaliacao\main.asm</FILE><LINE>182</LINE></traco>
+ </LABELS>
+</ASSEMBLER_INFO>
