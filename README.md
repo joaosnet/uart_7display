@@ -6,113 +6,103 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaosnet/uart_7display?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joaosnet/uart_7display?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo de imagem">
+<img src="imagem.png" alt="Exemplo imagem">
 
-> Este código é um exemplo de programa em Assembly para o microcontrolador AVR ATmega328P. O programa configura a comunicação serial UART, as portas de entrada e saída, e decodifica valores de 0 a 15 para serem exibidos em um display de sete segmentos.
+> Um exemplo de programa em Assembly para o microcontrolador AVR ATmega328P. O código configura a comunicação serial UART, as portas de entrada e saída, e decodifica valores de 0 a 15 para serem exibidos em um display de sete segmentos.
 
-## Conversor de Código ASCII para Hexadecimal
+### Ajustes e Melhorias
 
-### Autores
+O projeto está em desenvolvimento, e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-- João da Cruz de Natividade e Silva Neto
-- Alydson de Araujo Lustoza
+- [x] Configuração da comunicação serial UART
+- [x] Configuração das portas de entrada e saída
+- [x] Decodificação de valores de 0 a 15
+- [ ] Implementação da tarefa 4
+- [ ] Implementação da tarefa 5
 
-## Configurações
+## 💻 Pré-requisitos
 
-```assembly
-.equ DISPLAY = PORTB ; PORTB é onde está conectado o Display (seg a = LSB)
-.equ F_CPU = 8000000 ; define a frequência do clock
-.equ baud = 2400 ; Taxa de transmissão
-.equ bps = (F_CPU/16/baud) - 1 ; Taxa de prescala para a UART
-.def AUX = r18 ; registrador auxiliar
+Antes de começar, certifique-se de atender aos seguintes requisitos:
+
+- Você instalou a versão mais recente do AVR Assembly.
+- Você tem um microcontrolador AVR ATmega328P.
+- Você leu a [documentação relacionada ao projeto](link-para-documentacao).
+
+## 🚀 Instalando Conversor ASCII para Hexadecimal
+
+Para instalar o Conversor ASCII para Hexadecimal, siga estas etapas:
+
+Linux e macOS:
+
+```bash
+<comando_de_instalacao>
 ```
 
-## Inicialização do Programa
+Windows:
 
-```assembly
-.ORG 0x00 ; Diretiva para iniciar o programa
-RJMP initDisplay ; Desvia para o início do programa
+```bash
+<comando_de_instalacao>
 ```
 
-## Inicialização do Display de Sete Segmentos
+## ☕ Usando Conversor ASCII para Hexadecimal
+
+Para usar o Conversor ASCII para Hexadecimal, siga estas etapas:
 
 ```assembly
-initDisplay:
-    LDI AUX, 0xFF
-    OUT DDRB, AUX ; PORTB como saída
-    OUT PORTB, AUX ; Desliga o display
+<exemplo_de_uso>
 ```
 
-## Inicialização da Comunicação Serial UART
+Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
 
-```assembly
-initUART:
-    LDI R16, (1<<RXCIE0)|(1<<RXEN0)|(1<<TXEN0) ; Habilita USART recepção completa, recepção e transmissão
-    STS UCSR0B, R16
+## 📫 Contribuindo para Conversor ASCII para Hexadecimal
 
-    LDI R16, LOW(bps) ; Carregar pré-escala de transmissão
-    LDI R17, HIGH(bps)
-    STS UBRR0L, R16 ; Carregar pré-escala de transmissão para UBRR0
-    STS UBRR0H, R17
+Para contribuir com o projeto, siga estas etapas:
 
-    LDI R19, 0
-    STS UCSR0A, R19 ; Desabilitar velocidade dupla
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b nome_branch`.
+3. Faça suas alterações e confirme-as: `git commit -m 'mensagem_commit'`
+4. Envie para o branch original: `git push origin seu-branch / local`
+5. Crie a solicitação de pull.
 
-    SEI ; Habilita interrupções globais
-```
+Como alternativa, consulte a [documentação do GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) sobre como criar uma solicitação pull.
 
-## Programa Principal
+## 🤝 Colaboradores
 
-```assembly
-main:
-    RJMP main ; Laço infinito
-```
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-## Interrupção Interna UART (Recepção de Dados)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Joao Silva"/><br>
+        <sub>
+          <b>Joao Silva</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <sub>
+          <b>Mark Zuckerberg</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Steve Jobs</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-```assembly
-USART_RX:
-    rcall Get_N ; Chama a sub-rotina Get_N
-    reti ; Retorna para o programa principal
-```
+## 😄 Seja um dos Contribuidores
 
-## Sub-rotina para Tratar a Interrupção de Recepção de Dados
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-```assembly
-Get_N:
-    lds R20, UDR0 ; Carrega o byte recebido em r20
+## 📝 Licença
 
-    ; Verifica o valor recebido e chama a sub-rotina correspondente
-    cpi r20, 48
-    BREQ num0
-    ; ... (repete para os demais números e letras)
-
-    rcall traco ; Se não corresponder a nenhum, chama a sub-rotina traco
-    reti
-```
-
-## Sub-rotinas para Exibir Números e Letras no Display de Sete Segmentos
-
-```assembly
-; Exemplos para os números
-num0: ldi AUX, 0x40 ; Carrega o valor 0x40 no registrador auxiliar
-      OUT DISPLAY, AUX ; Mostra o valor do registrador auxiliar no display
-      reti
-
-num1: ldi AUX, 0x79
-      OUT DISPLAY, AUX
-      reti
-
-; Repete para os demais números e letras...
-```
-
-## Sub-rotina para Exibir o Traço no Display de Sete Segmentos
-
-```assembly
-traco:
-    LDI AUX, 0x3F
-    OUT DISPLAY, AUX ; Liga o traço
-    reti
-```
-
-Este programa é um exemplo educacional e pode ser modificado para atender às necessidades específicas do projeto. Certifique-se de entender completamente o código antes de aplicá-lo ao seu projeto.
+Este projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
