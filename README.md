@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joaosnet/uart_7display?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joaosnet/uart_7display?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="screenshoots/Animação.gif" alt="Exemplo de Funcionamento">
 
 > Um exemplo de programa em Assembly para o microcontrolador AVR ATmega328P. O código configura a comunicação serial UART, as portas de entrada e saída, e decodifica valores de 0 a 15 para serem exibidos em um display de sete segmentos.
 
