@@ -89,6 +89,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
   </tr>
+</table>
 
 ## 😄 Seja um dos Contribuidores
 
