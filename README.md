@@ -26,7 +26,7 @@ Antes de começar, certifique-se de atender aos seguintes requisitos:
 
 - Você instalou a versão mais recente do microchip studio.
 - Você tem um microcontrolador AVR ATmega328P ou Proteus 8.7 sp3 instalado.
-- Você leu a [documentação relacionada ao projeto](link-para-documentacao).
+- Você leu a [o artigo relacionado ao projeto](https://drive.google.com/file/d/1uwlVbvm2tocP2SgeSR2wierz68X3r2SW/view?usp=sharing).
 
 ## 🚀 Instalando Conversor ASCII para Hexadecimal
 
