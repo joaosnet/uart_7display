@@ -74,9 +74,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Joao Silva"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do João Natividade"/><br>
         <sub>
-          <b>Joao Silva</b>
+          <b>João Natividade</b>
         </sub>
       </a>
     </td>
