@@ -82,7 +82,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://instagram.fbel1-1.fna.fbcdn.net/v/t51.2885-19/373413865_685167606813132_7130571256974862269_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbel1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=-NtTXh9fTrgAX8a1o9w&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfCzhnv2Jx2ioCOx0yPV2K_08KW-JKR9opNrskSIHDIyIg&oe=6560334B&_nc_sid=ee9879" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://instagram.fbel1-1.fna.fbcdn.net/v/t51.2885-19/274501676_537691970910933_7250418063848294931_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbel1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=ACApVBikdNoAX_Nd-z2&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfDqicJsk8zjq8bXqvL38hbjF8K83bzzIqWNVcpTFrIBoQ&oe=65605C0E&_nc_sid=ee9879" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Alydson Lustoza</b>
         </sub>
