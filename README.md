@@ -24,8 +24,8 @@ O projeto está em desenvolvimento, e as próximas atualizações serão voltada
 
 Antes de começar, certifique-se de atender aos seguintes requisitos:
 
-- Você instalou a versão mais recente do AVR Assembly.
-- Você tem um microcontrolador AVR ATmega328P.
+- Você instalou a versão mais recente do microchip studio.
+- Você tem um microcontrolador AVR ATmega328P ou Proteus 8.7 sp3 instalado.
 - Você leu a [documentação relacionada ao projeto](link-para-documentacao).
 
 ## 🚀 Instalando Conversor ASCII para Hexadecimal
